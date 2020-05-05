@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+
+  genui:
+    image: node:13.12.0-alpine
+    container_name: genui
+    build:
+      context: ./client
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    command: npm start
+    ports:
+      - 3001:3000
+    depends_on:
+      - genapi
+    stdin_open: true
+
+  genapi:
+    container_name: genapi
+    build:
+      context: ./server
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    command: npm start
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - 8080:8080

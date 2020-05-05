@@ -1,0 +1,1444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Container should render given props 1`] = `
+<footer
+  aria-label="Footer"
+  role="contentinfo"
+>
+  <div
+    className="nav-footer"
+  >
+    <div
+      className="nav-footer-inner-wrap"
+    >
+      <div
+        className="nav-footer-top-wrapper"
+      >
+        <div
+          className="nav-footer-top-wrapper-nested"
+        >
+          <div
+            className="nav-footer-description"
+          >
+            <h2
+              className="nav-footer-description-title"
+            >
+              Title
+            </h2>
+            <p
+              className="nav-footer-description-body"
+            >
+              blah blah blah....
+            </p>
+          </div>
+          <div
+            className="nav-footer-sitemap"
+          >
+            <div
+              className="nav-footer-sitemap-links"
+            >
+              <h2
+                className="nav-footer-sitemap-title"
+              >
+                Get to Know Us
+              </h2>
+              <div
+                className="nav-footer-sitemap-list"
+              >
+                <Link
+                  color="white"
+                  to="/1"
+                >
+                  About 1
+                </Link>
+                <Link
+                  color="white"
+                  to="/2"
+                >
+                  About 2
+                </Link>
+                <Link
+                  color="white"
+                  to="/3"
+                >
+                  About 3
+                </Link>
+                <Link
+                  color="white"
+                  to="/4"
+                >
+                  About 4
+                </Link>
+                <Link
+                  color="white"
+                  to="/5"
+                >
+                  About 5
+                </Link>
+              </div>
+            </div>
+            <div
+              className="nav-footer-sitemap-links"
+            >
+              <h2
+                className="nav-footer-sitemap-title"
+              >
+                Plan with Us
+              </h2>
+              <div
+                className="nav-footer-sitemap-list"
+              >
+                <Link
+                  color="white"
+                  to="/1"
+                >
+                  About 1
+                </Link>
+                <Link
+                  color="white"
+                  to="/2"
+                >
+                  About 2
+                </Link>
+                <Link
+                  color="white"
+                  to="/3"
+                >
+                  About 3
+                </Link>
+                <Link
+                  color="white"
+                  to="/4"
+                >
+                  About 4
+                </Link>
+                <Link
+                  color="white"
+                  to="/5"
+                >
+                  About 5
+                </Link>
+              </div>
+            </div>
+            <div
+              className="nav-footer-sitemap-links"
+            >
+              <h2
+                className="nav-footer-sitemap-title"
+              >
+                Join Us
+              </h2>
+              <div
+                className="nav-footer-sitemap-list"
+              >
+                <Link
+                  color="white"
+                  to="/1"
+                >
+                  About 1
+                </Link>
+                <Link
+                  color="white"
+                  to="/2"
+                >
+                  About 2
+                </Link>
+                <Link
+                  color="white"
+                  to="/3"
+                >
+                  About 3
+                </Link>
+                <Link
+                  color="white"
+                  to="/4"
+                >
+                  About 4
+                </Link>
+                <Link
+                  color="white"
+                  to="/5"
+                >
+                  About 5
+                </Link>
+              </div>
+            </div>
+            <div
+              className="nav-footer-sitemap-links"
+            >
+              <h2
+                className="nav-footer-sitemap-title"
+              >
+                Let Us Help You
+              </h2>
+              <div
+                className="nav-footer-sitemap-list"
+              >
+                <Link
+                  color="white"
+                  to="/1"
+                >
+                  About 1
+                </Link>
+                <Link
+                  color="white"
+                  to="/2"
+                >
+                  About 2
+                </Link>
+                <Link
+                  color="white"
+                  to="/3"
+                >
+                  About 3
+                </Link>
+                <Link
+                  color="white"
+                  to="/4"
+                >
+                  About 4
+                </Link>
+                <Link
+                  color="white"
+                  to="/5"
+                >
+                  About 5
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="nav-footer-accordion"
+    >
+      <Accordion
+        startCollapsed={true}
+      >
+        <AccordionItem
+          accordionIndex={0}
+          title="Get to Know Us"
+        >
+          <div
+            className="nav-footer-accordion-list"
+          >
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/1"
+            >
+              About 1
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/2"
+            >
+              About 2
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/3"
+            >
+              About 3
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/4"
+            >
+              About 4
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/5"
+            >
+              About 5
+            </Link>
+          </div>
+        </AccordionItem>
+        <AccordionItem
+          accordionIndex={1}
+          title="Plan with Us"
+        >
+          <div
+            className="nav-footer-accordion-list"
+          >
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/1"
+            >
+              About 1
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/2"
+            >
+              About 2
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/3"
+            >
+              About 3
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/4"
+            >
+              About 4
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/5"
+            >
+              About 5
+            </Link>
+          </div>
+        </AccordionItem>
+        <AccordionItem
+          accordionIndex={2}
+          title="Join Us"
+        >
+          <div
+            className="nav-footer-accordion-list"
+          >
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/1"
+            >
+              About 1
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/2"
+            >
+              About 2
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/3"
+            >
+              About 3
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/4"
+            >
+              About 4
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/5"
+            >
+              About 5
+            </Link>
+          </div>
+        </AccordionItem>
+        <AccordionItem
+          accordionIndex={3}
+          title="Let Us Help You"
+        >
+          <div
+            className="nav-footer-accordion-list"
+          >
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/1"
+            >
+              About 1
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/2"
+            >
+              About 2
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/3"
+            >
+              About 3
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/4"
+            >
+              About 4
+            </Link>
+            <Link
+              className="nav-footer-accordion-link"
+              color="white"
+              href="/5"
+            >
+              About 5
+            </Link>
+          </div>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  </div>
+  <div
+    className="nav-footer-partners-outer-wrap"
+  >
+    <div
+      className="nav-footer-partners-wrap"
+    >
+      <svg
+        aria-labelledby="facebook-title"
+        className="footer__icon-style facebook"
+        enableBackground="new 83 -108.9 266.9 266.9"
+        id="Layer_1"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="83 -108.9 266.9 266.9"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <title
+          id="facebook-title"
+        >
+          Facebook Icon
+        </title>
+        <path
+          d="M331.1-104.3H101.8c-7.9,0-14.2,6.4-14.2,14.2v229.3c0,7.9,6.4,14.2,14.2,14.2h123.4V53.6h-33.6V14.7h33.6 V-14c0-33.3,20.3-51.4,50-51.4c14.2,0,26.5,1.1,30,1.5v34.8l-20.6,0c-16.1,0-19.3,7.7-19.3,18.9v24.8h38.5l-5,38.9h-33.5v99.8h65.7 c7.9,0,14.2-6.4,14.2-14.2V-90.1C345.3-97.9,338.9-104.3,331.1-104.3z"
+          fill="#FFFFFF"
+        />
+      </svg>
+      <svg
+        aria-labelledby="facebook-title"
+        className="footer__icon-style facebook"
+        enableBackground="new 83 -108.9 266.9 266.9"
+        id="Layer_1"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="83 -108.9 266.9 266.9"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <title
+          id="facebook-title"
+        >
+          Facebook Icon
+        </title>
+        <path
+          d="M331.1-104.3H101.8c-7.9,0-14.2,6.4-14.2,14.2v229.3c0,7.9,6.4,14.2,14.2,14.2h123.4V53.6h-33.6V14.7h33.6 V-14c0-33.3,20.3-51.4,50-51.4c14.2,0,26.5,1.1,30,1.5v34.8l-20.6,0c-16.1,0-19.3,7.7-19.3,18.9v24.8h38.5l-5,38.9h-33.5v99.8h65.7 c7.9,0,14.2-6.4,14.2-14.2V-90.1C345.3-97.9,338.9-104.3,331.1-104.3z"
+          fill="#FFFFFF"
+        />
+      </svg>
+      <svg
+        aria-labelledby="facebook-title"
+        className="footer__icon-style facebook"
+        enableBackground="new 83 -108.9 266.9 266.9"
+        id="Layer_1"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="83 -108.9 266.9 266.9"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <title
+          id="facebook-title"
+        >
+          Facebook Icon
+        </title>
+        <path
+          d="M331.1-104.3H101.8c-7.9,0-14.2,6.4-14.2,14.2v229.3c0,7.9,6.4,14.2,14.2,14.2h123.4V53.6h-33.6V14.7h33.6 V-14c0-33.3,20.3-51.4,50-51.4c14.2,0,26.5,1.1,30,1.5v34.8l-20.6,0c-16.1,0-19.3,7.7-19.3,18.9v24.8h38.5l-5,38.9h-33.5v99.8h65.7 c7.9,0,14.2-6.4,14.2-14.2V-90.1C345.3-97.9,338.9-104.3,331.1-104.3z"
+          fill="#FFFFFF"
+        />
+      </svg>
+      <svg
+        aria-labelledby="facebook-title"
+        className="footer__icon-style facebook"
+        enableBackground="new 83 -108.9 266.9 266.9"
+        id="Layer_1"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="83 -108.9 266.9 266.9"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <title
+          id="facebook-title"
+        >
+          Facebook Icon
+        </title>
+        <path
+          d="M331.1-104.3H101.8c-7.9,0-14.2,6.4-14.2,14.2v229.3c0,7.9,6.4,14.2,14.2,14.2h123.4V53.6h-33.6V14.7h33.6 V-14c0-33.3,20.3-51.4,50-51.4c14.2,0,26.5,1.1,30,1.5v34.8l-20.6,0c-16.1,0-19.3,7.7-19.3,18.9v24.8h38.5l-5,38.9h-33.5v99.8h65.7 c7.9,0,14.2-6.4,14.2-14.2V-90.1C345.3-97.9,338.9-104.3,331.1-104.3z"
+          fill="#FFFFFF"
+        />
+      </svg>
+      <svg
+        aria-labelledby="medium-title"
+        className="footer__icon-style"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="0 0 195 195"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="medium-title"
+        >
+          Medium Icon
+        </title>
+        <g
+          fill="none"
+          fillRule="evenodd"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fillRule="nonzero"
+          >
+            <rect
+              fill="#12100E"
+              height="195"
+              id="Rectangle-path"
+              width="195"
+              x="0"
+              y="0"
+            />
+            <path
+              d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+              fill="#FFFFFF"
+            />
+          </g>
+        </g>
+      </svg>
+      <svg
+        aria-labelledby="medium-title"
+        className="footer__icon-style"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="0 0 195 195"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="medium-title"
+        >
+          Medium Icon
+        </title>
+        <g
+          fill="none"
+          fillRule="evenodd"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fillRule="nonzero"
+          >
+            <rect
+              fill="#12100E"
+              height="195"
+              id="Rectangle-path"
+              width="195"
+              x="0"
+              y="0"
+            />
+            <path
+              d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+              fill="#FFFFFF"
+            />
+          </g>
+        </g>
+      </svg>
+      <svg
+        aria-labelledby="medium-title"
+        className="footer__icon-style"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="0 0 195 195"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="medium-title"
+        >
+          Medium Icon
+        </title>
+        <g
+          fill="none"
+          fillRule="evenodd"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fillRule="nonzero"
+          >
+            <rect
+              fill="#12100E"
+              height="195"
+              id="Rectangle-path"
+              width="195"
+              x="0"
+              y="0"
+            />
+            <path
+              d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+              fill="#FFFFFF"
+            />
+          </g>
+        </g>
+      </svg>
+      <svg
+        aria-labelledby="medium-title"
+        className="footer__icon-style"
+        onClick={[Function]}
+        version="1.1"
+        viewBox="0 0 195 195"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="medium-title"
+        >
+          Medium Icon
+        </title>
+        <g
+          fill="none"
+          fillRule="evenodd"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fillRule="nonzero"
+          >
+            <rect
+              fill="#12100E"
+              height="195"
+              id="Rectangle-path"
+              width="195"
+              x="0"
+              y="0"
+            />
+            <path
+              d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+              fill="#FFFFFF"
+            />
+          </g>
+        </g>
+      </svg>
+      <svg
+        className="footer__icon-style"
+        id="Layer_1"
+        onClick={[Function]}
+        style={
+          Object {
+            "enableBackground": "new 0 0 551.034 551.034",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 551.034 551.034"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <g>
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_1_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+            style={
+              Object {
+                "fill": " url(#SVGID_1_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_2_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517 S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083 s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"
+            style={
+              Object {
+                "fill": "url(#SVGID_2_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_3_"
+            x1="418.31"
+            x2="418.31"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <circle
+            cx="418.31"
+            cy="134.07"
+            r="34.15"
+            style={
+              Object {
+                "fill": " url(#SVGID_3_)",
+              }
+            }
+          />
+        </g>
+      </svg>
+      <svg
+        className="footer__icon-style"
+        id="Layer_1"
+        onClick={[Function]}
+        style={
+          Object {
+            "enableBackground": "new 0 0 551.034 551.034",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 551.034 551.034"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <g>
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_1_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+            style={
+              Object {
+                "fill": " url(#SVGID_1_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_2_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517 S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083 s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"
+            style={
+              Object {
+                "fill": "url(#SVGID_2_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_3_"
+            x1="418.31"
+            x2="418.31"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <circle
+            cx="418.31"
+            cy="134.07"
+            r="34.15"
+            style={
+              Object {
+                "fill": " url(#SVGID_3_)",
+              }
+            }
+          />
+        </g>
+      </svg>
+      <svg
+        className="footer__icon-style"
+        id="Layer_1"
+        onClick={[Function]}
+        style={
+          Object {
+            "enableBackground": "new 0 0 551.034 551.034",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 551.034 551.034"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <g>
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_1_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+            style={
+              Object {
+                "fill": " url(#SVGID_1_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_2_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517 S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083 s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"
+            style={
+              Object {
+                "fill": "url(#SVGID_2_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_3_"
+            x1="418.31"
+            x2="418.31"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <circle
+            cx="418.31"
+            cy="134.07"
+            r="34.15"
+            style={
+              Object {
+                "fill": " url(#SVGID_3_)",
+              }
+            }
+          />
+        </g>
+      </svg>
+      <svg
+        className="footer__icon-style"
+        id="Layer_1"
+        onClick={[Function]}
+        style={
+          Object {
+            "enableBackground": "new 0 0 551.034 551.034",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 551.034 551.034"
+        x="0px"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
+      >
+        <g>
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_1_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+            style={
+              Object {
+                "fill": " url(#SVGID_1_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_2_"
+            x1="275.517"
+            x2="275.517"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <path
+            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517 S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083 s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"
+            style={
+              Object {
+                "fill": "url(#SVGID_2_)",
+              }
+            }
+          />
+          <linearGradient
+            gradientTransform="matrix(1 0 0 -1 0 554)"
+            gradientUnits="userSpaceOnUse"
+            id="SVGID_3_"
+            x1="418.31"
+            x2="418.31"
+            y1="4.57"
+            y2="549.72"
+          >
+            <stop
+              offset="0"
+              style={
+                Object {
+                  "stopColor": "#E09B3D",
+                }
+              }
+            />
+            <stop
+              offset="0.3"
+              style={
+                Object {
+                  "stopColor": "#C74C4D",
+                }
+              }
+            />
+            <stop
+              offset="0.6"
+              style={
+                Object {
+                  "stopColor": "#C21975",
+                }
+              }
+            />
+            <stop
+              offset="1"
+              style={
+                Object {
+                  "stopColor": "#7024C4",
+                }
+              }
+            />
+          </linearGradient>
+          <circle
+            cx="418.31"
+            cy="134.07"
+            r="34.15"
+            style={
+              Object {
+                "fill": " url(#SVGID_3_)",
+              }
+            }
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div
+    className="nav-footer"
+  >
+    <div
+      className="nav-footer-inner-wrap"
+    >
+      <div
+        className="nav-footer-bottom-wrapper"
+      >
+        <div
+          className="list-social-wrap"
+        >
+          <div
+            className="nav-footer-social-links"
+          >
+            <svg
+              aria-labelledby="facebook-title"
+              className="footer__icon-style facebook"
+              enableBackground="new 83 -108.9 266.9 266.9"
+              id="Layer_1"
+              onClick={[Function]}
+              version="1.1"
+              viewBox="83 -108.9 266.9 266.9"
+              x="0px"
+              xmlns="http://www.w3.org/2000/svg"
+              y="0px"
+            >
+              <title
+                id="facebook-title"
+              >
+                Facebook Icon
+              </title>
+              <path
+                d="M331.1-104.3H101.8c-7.9,0-14.2,6.4-14.2,14.2v229.3c0,7.9,6.4,14.2,14.2,14.2h123.4V53.6h-33.6V14.7h33.6 V-14c0-33.3,20.3-51.4,50-51.4c14.2,0,26.5,1.1,30,1.5v34.8l-20.6,0c-16.1,0-19.3,7.7-19.3,18.9v24.8h38.5l-5,38.9h-33.5v99.8h65.7 c7.9,0,14.2-6.4,14.2-14.2V-90.1C345.3-97.9,338.9-104.3,331.1-104.3z"
+                fill="#FFFFFF"
+              />
+            </svg>
+            <svg
+              aria-labelledby="medium-title"
+              className="footer__icon-style"
+              onClick={[Function]}
+              version="1.1"
+              viewBox="0 0 195 195"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="medium-title"
+              >
+                Medium Icon
+              </title>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                stroke="none"
+                strokeWidth="1"
+              >
+                <g
+                  fillRule="nonzero"
+                >
+                  <rect
+                    fill="#12100E"
+                    height="195"
+                    id="Rectangle-path"
+                    width="195"
+                    x="0"
+                    y="0"
+                  />
+                  <path
+                    d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+                    fill="#FFFFFF"
+                  />
+                </g>
+              </g>
+            </svg>
+            <svg
+              aria-labelledby="medium-title"
+              className="footer__icon-style"
+              onClick={[Function]}
+              version="1.1"
+              viewBox="0 0 195 195"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="medium-title"
+              >
+                Medium Icon
+              </title>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                stroke="none"
+                strokeWidth="1"
+              >
+                <g
+                  fillRule="nonzero"
+                >
+                  <rect
+                    fill="#12100E"
+                    height="195"
+                    id="Rectangle-path"
+                    width="195"
+                    x="0"
+                    y="0"
+                  />
+                  <path
+                    d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"
+                    fill="#FFFFFF"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div
+          className="nav-copyright"
+        >
+          © 2019 AFHI. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;
