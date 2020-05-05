@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Container should render given props 1`] = `
+<div
+  className="notfound-container"
+>
+  <div
+    className="text-exa"
+  >
+    404
+  </div>
+  <div
+    className="text-tera"
+  >
+    There's Nothing here!
+  </div>
+  <div
+    className="text-giga text-dim"
+  >
+    Not all wander are lost. But you certainly are.
+  </div>
+  <button
+    className="secondary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Go back
+  </button>
+</div>
+`;

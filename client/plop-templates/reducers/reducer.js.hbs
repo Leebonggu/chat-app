@@ -1,0 +1,16 @@
+import {
+  INITIALIZE_{{constantCase name}},
+} from '../actions/{{camelCase name}}';
+
+const initialState = {
+  /* add state */
+};
+
+export default (state = initialState, action) => {
+  switch (action.type) {
+    case INITIALIZE_{{constantCase name}}:
+      return { ...initialState };
+    default:
+      return state;
+  }
+};

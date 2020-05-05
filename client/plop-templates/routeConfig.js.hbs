@@ -1,0 +1,17 @@
+import { lazy } from 'react';
+
+const {{camelCase name}} = lazy(() => import('./container/{{camelCase name}}'));
+
+const {{camelCase name}}RouteConstants = {
+  {{camelCase name}}: '/{{dashCase name}}'
+};
+
+const {{camelCase name}}RouteConfig = [
+  {
+    path: {{camelCase name}}RouteConstants.{{camelCase name}},
+    component: {{camelCase name}},
+    exact: true
+  }
+];
+
+export { {{camelCase name}}RouteConstants, {{camelCase name}}RouteConfig };

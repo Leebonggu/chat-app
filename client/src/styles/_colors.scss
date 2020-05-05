@@ -1,0 +1,36 @@
+// refer lib/styles/core/_variables.scss for default colors
+
+/*======================================
+=            WEBSITE COLORS            =
+======================================*/
+
+$primary-color: #34314c;
+$secondary-color: #47b8e0;
+$yellow-color: #ffc952;
+$red-color: #ff7473;
+
+/*======================================================
+=            ACCESSIBILITY COLOR SELECTIONS            =
+======================================================*/
+
+$accessible-green: #1bac00;
+$accessible-blue: #3171bf;
+
+/*=============================================
+=            GLOBAL NEUTRAL COLORS            =
+=============================================*/
+
+$black: #040404 !default;
+$neutral-75: #373737 !default;
+$neutral-90: darken($neutral-75, 15%) !default;
+$neutral-80: darken($neutral-75, 5%) !default;
+$neutral-70: lighten($neutral-75, 50%) !default;
+$neutral-60: lighten($neutral-75, 15%) !default;
+$neutral-50: lighten($neutral-75, 25%) !default;
+$neutral-40: lighten($neutral-75, 35%) !default;
+$neutral-30: lighten($neutral-75, 45%) !default;
+$neutral-20: lighten($neutral-75, 55%) !default;
+$neutral-10: lighten($neutral-75, 65%) !default;
+$neutral-5: #efefef;
+$neutral-1: #fbfbfb;
+$white: #ffffff !default;
