@@ -23,7 +23,7 @@ export default () => (
         <Route key={`allroutes-${index + 1}`} {...route} />
       ))}
       <Route path={Routes.notfound} component={NotFound} />
-      <Route render={() => <Redirect to={Routes.home} />} />
+      <Route render={() => <Redirect to={Routes.notFound} />} />
     </Switch>
   </Suspense>
 );

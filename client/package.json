@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://genapi:8080",
+  "proxy": "http://server:8080",
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "docker:start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
     "build": "NODE_ENV='production' webpack --mode production --config ./config/webpack.prod.js",
     "test": "jest --config jest.config.js --coverage --watchAll=false",
     "test:watch": "jest --config jest.config.js --watch",
@@ -29,6 +30,7 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
