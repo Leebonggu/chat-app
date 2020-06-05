@@ -3,16 +3,14 @@ import { Route, Switch } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import Routes from '.';
+import { p1RouteConfig } from '../p1/p1RouteConfig';
 import Spinner from '../common/spinner';
-/* PLOP_INJECT_IMPORT */
-import { helloRouteConfig } from '../hello/helloRouteConfig';
 
-const NotFound = lazy(() => import('../app/containers/notFound'));
-const Landing = lazy(() => import('../app/containers/landing'));
+const NotFound = lazy(() => import('../app/notFound'));
+const Landing = lazy(() => import('../app/landing'));
 
-const AllRoutes = [
-  /* PLOP_INJECT_ROUTE */
-	...helloRouteConfig,
+export const AllRoutes = [
+	...p1RouteConfig,
 ];
 
 export default () => (

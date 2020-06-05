@@ -1,11 +1,9 @@
-/* PLOP_INJECT_CONSTANT_IMPORT */
-import { helloRouteConstants } from '../hello/helloRouteConfig';
+import { p1RouteConstants } from '../p1/p1RouteConfig';
 
 const RouteConstant = {
   notfound: '/404',
   home: '/',
-  /* PLOP_INJECT_CONSTANT */
-	...helloRouteConstants,
+	...p1RouteConstants,
 };
 
 export default RouteConstant;

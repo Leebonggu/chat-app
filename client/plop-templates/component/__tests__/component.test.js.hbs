@@ -1,9 +1,0 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {{pascalCase name}}Component from '../{{camelCase name}}Component';
-
-test('should render {{pascalCase name}}Component', () => {
-  const component = renderer.create(<{{pascalCase name}}Component />);
-  const tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
-});
