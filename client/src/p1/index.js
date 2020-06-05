@@ -1,22 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-import HelloComponent from './component/helloComponent';
+import Description from './component/description';
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 const P1 = () => {
-  const [isSample, handleSample] = useState(false);
-
-  useEffect(() => {
-    handleSample(true);
-  }, [isSample]);
-
   return (
     <Container>
-      {isSample ? <HelloComponent /> : 'hello'}
+      <Description />
+      <div>start here...</div>
     </Container>
   );
 };
