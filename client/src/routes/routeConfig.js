@@ -4,13 +4,19 @@ import { Redirect } from 'react-router';
 
 import Routes from '.';
 import { p1RouteConfig } from '../p1/p1RouteConfig';
+import { adminRouteConfig } from '../admin/adminRouteConfig';
 import Spinner from '../common/spinner';
 
 const NotFound = lazy(() => import('../app/notFound'));
 const Landing = lazy(() => import('../app/landing'));
 
 export const AllRoutes = [
-	...p1RouteConfig,
+  ...p1RouteConfig,
+  ...adminRouteConfig,
+];
+
+export const adminRoutes = [
+  ...adminRouteConfig,
 ];
 
 export default () => (

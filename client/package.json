@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://server:8080",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "NODE_ENV='production' webpack --mode production --config ./config/webpack.prod.js",
@@ -19,6 +18,7 @@
     "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
+    "query-string": "^6.13.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.1.2",
@@ -85,5 +85,6 @@
     "webpack-merge": "^4.2.2",
     "whatwg-fetch": "^3.0.0",
     "workbox-webpack-plugin": "^4.3.1"
-  }
+  },
+  "proxy": "http://server:4000"
 }

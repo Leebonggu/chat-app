@@ -1,37 +1,133 @@
 #!/usr/bin/env node
 
 const app = require('../app');
-const socketIo = require("socket.io");
 const debug = require('debug')('server:server');
 const http = require('http');
 
-const port = normalizePort(process.env.PORT || '8080');
+const port = normalizePort(process.env.PORT || '4000');
 app.set('port', port);
+
 const server = http.createServer(app);
-const io = socketIo(server);
+const io = require('socket.io')(server);
+
+// Database
+
+const rooms = {};
+const exitRooms = {};
+const savedContents = {
+  '강의': [],
+  '시나리오': [],
+  '일반행정': [],
+};
+
+const chat = io.of('/chat');
+
+// app.get('/roomlist', (req, res) => {
+//   // 방연결
+//   res.send(rooms);
+// });
+
+// app.ios.attach(server);
+
+// roomname2: {
+//   user: [user2, admin],
+//   contents: [
+//       {username: ~, text: ~},
+//       {username: ~, text: ~},
+//   ]
+// }
+
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
-let interval;
+chat.on('connection', function(socket) {
+  const roomList = 
+  Object.keys(rooms)
+    .map(room => {
+      return {
+        name: room,
+        latestMsg: rooms[room]['latestMsg']
+      }
+    });
+  // const sortedRoomList1 = roomList.slice().sort((a ,b) => { return new Date(a.latestMsg) - new Date(b.latestMsg)});
+  const sortedRoomList2 = roomList.slice().sort((a ,b) => { return new Date(b.latestMsg) - new Date(a.latestMsg)});
 
-io.on("connection", (socket) => {
-  console.log("New client connected");
-  if (interval) {
-    clearInterval(interval);
-  }
-  interval = setInterval(() => getApiAndEmit(socket), 1000);
-  socket.on("disconnect", () => {
-    console.log("Client disconnected");
-    clearInterval(interval);
+  socket.on('join', (data) => {
+    const { username, roomname } = data;
+    if (username !== 'admin' && !rooms[roomname]) {
+      rooms[roomname] = {
+        user: [username, 'admin'],
+        contents: [],
+        latestMsg: new Date(),
+        isExit: false,
+      };
+    }
+    socket.join(`${roomname}`);
+    socket.emit('dialogInitialize', rooms[roomname]['contents']);
   });
-});
+  
+  socket.emit('initialize', { rooms: sortedRoomList2 });
 
-function getApiAndEmit(socket) {
-  const response = new Date();
-  // Emitting a new message. Will be consumed by the client
-  socket.emit("FromAPI", response);
-}
+  socket.on('sendMessage', (data) => {
+    const { username, roomname, text } = data;
+    rooms[roomname]['latestMsg'] = new Date(),
+    rooms[roomname]['contents'].push({
+      username,
+      msg: text,
+    });
+    chat.to(`${roomname}`).emit('input', { username, msg: text });
+  });
+
+  // usename !== 'amdin' 
+  socket.on('exit', (data) => {
+    if (data) {
+      const { username, roomname } = data;
+      socket.on('disconnect', () => {
+        rooms[roomname]['isExit'] = true;
+        exitRooms[roomname] = rooms[roomname];
+        // delete rooms[roomname];
+        chat.emit('input', { user: username, msg: `${username} has exit`, userExist: rooms[roomname]['isExit']});
+      });
+    }
+  });
+
+  socket.on('save', (data) => {
+    if (data) {
+      const { roomname } = data;
+      if (rooms[roomname]) {
+        const category = roomname.split('-')[0];
+        savedContents[category] = [ ...savedContents[category], ...rooms[roomname]['contents'] ];
+        delete rooms[roomname];
+        console.log(savedContents);
+        chat.emit('saveSuccess', { success: 'success' });
+      }
+    }
+  });
+
+  // Delete 부터
+
+  socket.on('deleteMessages', (data) => {
+    const { roomname } = data;
+    if (!rooms[roomname]['isExit']) {
+      chat.emit('deleteResponse', { fail: '아직 있다 사람이' });
+    } else {
+      chat.emit('deleteResponse', { success: '삭제완료' });
+      delete rooms[roomname];
+    }
+  })
+
+  socket.on('adminExit', (data) => {
+    socket.on('disconnect', () => {
+      chat.emit('input', { user: 'admin', msg: `admin has exit`});
+    });
+  });
+
+
+  // socket.on('disconnect', () => {
+  //   chat.emit('input', { user: socket.id, msg: `${socket.id} has left`});
+  // });
+});
 
 function normalizePort(val) {
   var port = parseInt(val, 10);
@@ -88,3 +184,4 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+

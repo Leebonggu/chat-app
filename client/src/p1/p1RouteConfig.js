@@ -3,7 +3,7 @@ import { lazy } from 'react';
 const p1 = lazy(() => import('.'));
 
 const p1RouteConstants = {
-  p1: '/p1'
+  p1: '/입장'
 };
 
 const p1RouteConfig = [
@@ -15,3 +15,7 @@ const p1RouteConfig = [
 ];
 
 export { p1RouteConstants, p1RouteConfig };
+
+// username
+// roomname 둘다주면???????????
+// => admin 고정...
